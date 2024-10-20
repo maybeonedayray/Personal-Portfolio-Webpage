@@ -1,0 +1,315 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Product Page</title>
+ <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+<link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+    <section id="welcome-section">
+
+      <h1 id="header">
+ <nav id="navbar">
+ <ul>
+    <li><a class="nav-link" href="#Me">Me
+      </a>
+      </li>
+
+      <li><a class="nav-link" href="#projects">Projects
+      </a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Contact">Contact
+      </a>
+      </li>
+ </nav>
+  </header>
+      </h1>
+      </section>
+      <section
+         id="Me">
+         <h2>
+         Hey I'm Rey
+         </h2>
+         <p id="title-p"> the upcoming coder
+           </p>
+        </section>
+
+      <section id="projects">
+        <h3 id="project-title">
+          Projects
+          </h3>
+        <div class="projects-container">
+<a id="profile-link" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form" class="project-link"
+target="_blank"
+>         
+<div class="project-tile"></div> <div class="project-box">
+<p class="project-name">Survey Form</p></div>
+</a>
+<a href= "https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" class="project-link">
+    <div class="project-tile"></div> <div class="project-box">
+    <p class="project-name">Tribute Page</p></div>
+    </a>
+    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page" class="project-link">
+    <div class="project-tile"></div>
+     <div class="project-box">
+    <p class="project-name">Tech Doc Page</p></div>
+    </a>
+    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" class="project-link">
+    <div class="project-tile"></div>
+    <div class="project-box">
+    <p class="project-name">Product Landing</p></div>
+    </a>
+        </div>
+        </section>
+
+        <section id="Contact">
+<h9>Wanna create a project?</h9><p id="finale-p">Lets build!</p>
+
+<div class="social-icons">
+<a href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+ <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.youtube.com/freecodecamp">
+            <i class="fab fa-youtube"></i>
+          </a>
+  </div>
+        </section>
+    </body>  
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#navbar {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: red; 
+  z-index: 1000; 
+  padding: 0;
+}
+    #navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+       font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+#navbar ul li {
+      margin-left: 20px;
+    }
+
+    #navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+    }
+
+    #navbar ul li a:hover {
+      color: blue;
+    }
+
+    #welcome-section {
+       height: 8vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: red; /
+      text-align: center;
+      padding-top: 60px; 
+    }
+
+    h2 {
+      margin: 0;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+ 
+    }
+
+    #Me {
+ background-color: #A9A9A9;
+      height: 400px;
+      display: flex; justify-content: center;
+   align-items: center;
+   font-size: 40px;
+      
+    }
+
+    #title-p {
+      margin-top: 100px;
+      margin-left: -240px;
+      font-family: monospace;
+      font-size: 20px;
+    }
+
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#projects {
+
+   background-color: #D3D3D3;
+      height: 600px; 
+   font-size: 30px;
+
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-tile {
+ 
+  background-image: url(data:image/png;base64,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); 
+  border: 1px solid #ccc; 
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.project-name {
+  margin-top: 10px; 
+  font-size: 16px; 
+  font-family: monospace;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.project-link a {
+  color: black; 
+  text-decoration: none;
+}
+
+.project-link: hover {
+  color: white; 
+}
+
+.project-link:hover .project-name {
+  color: white; 
+}
+
+.project-box {
+  background-color: grey;
+  width: 150px;
+}
+
+#Contact {
+  background-color: #A9A9A9;
+     display: flex;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;      
+  height: 80vh;           
+  text-align: center; 
+   
+}
+
+h9, #finale-p {
+  margin: 0;
+  padding: 1px 0;
+}
+
+h9 {
+font-size: 40px;
+font-weight: bold;
+color: white;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+
+#finale-p {
+  font-size: 20px;
+  font-family: monospace;
+   margin-bottom: 100px;
+   color: white;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+** end of undefined **
+
